@@ -40,5 +40,4 @@ public class HelloContrrollerTest {
                 .andExpect(jsonPath("$.name").value(name))
                 .andExpect(jsonPath("$.amount").value(amount));
     }
-
 }
