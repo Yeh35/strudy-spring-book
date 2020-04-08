@@ -13,4 +13,9 @@ public class IndexController {
         // result: /src/main/resources/templates/index.mustache
         return "index";
     }
+
+    @GetMapping("/posts/save")
+    public String postsSave() {
+        return "posts-save";
+    }
 }
