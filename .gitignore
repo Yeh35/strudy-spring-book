@@ -2,4 +2,4 @@
 .gradle/
 .idea/
 build/
-applicaiton-oauth.properties
+src/main/resources/applicaiton-oauth.properties
